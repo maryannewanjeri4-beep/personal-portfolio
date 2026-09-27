@@ -1,89 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>personal portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header class="hero">
-         <nav class="nav-links">
+    <header>
+        <nav class="nav-links">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <h1>HEY ....MEET MARYANNE WANJERI</h1>
-        <p class="hero-text">I'm a passionate web developer with a love for creating beautiful and functional websites. </p>     
-       
-    </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <h4 class="about-subtitle">learn a little bit more about me and what I do</h4>
-        <img src="images/profile.jpg" alt="Profile Picture" class="profile-image">
-        <p class="about-text">
-            I am a web developer with a strong passion for creating innovative and user-friendly websites. With a background in computer science and a keen eye for design, I strive to deliver high-quality web solutions that meet the needs of clients and users alike. My expertise includes front-end development, responsive design, and optimizing website performance. I am constantly learning and staying up-to-date with the latest web technologies to ensure that my work is both modern and effective.
-        </p>
-        <p>My skills include;</p>
-        <div class="skills">
-            <ul>
-                <li><span>HTML</span></li>
-                <li><span>CSS</span></li>
-                <li><span>JavaScript</span></li>
-                <li><span>React</span></li>
-                <li><span>Node.js</span></li>
-                <li><span>Python</span></li>
-            </ul>
-        </div>
-    </section>
-     <section id="projects">
+        </header>
+        
+        <main>
+            <section id="hero">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Hi, I'm Maryanne Wanjeri, a passionate web developer.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <h4 class="about-subtitle">learn a little bit more about me and what I do</h4>
+            <img src="images/profile.jpg" alt="Profile Picture" class="profile-image">
+            <p class="about-text">
+                I am a web developer with a strong passion for creating innovative and user-friendly websites. With a
+                background in computer science and a keen eye for design, I strive to deliver high-quality web solutions
+                that meet the needs of clients and users alike. My expertise includes front-end development, responsive
+                design, and optimizing website performance. I am constantly learning and staying up-to-date with the
+                latest web technologies to ensure that my work is both modern and effective.
+            </p>
+            <p>My skills include;</p>
+            <div class="skills">
+                <ul>
+                    <li><span>HTML</span></li>
+                    <li><span>CSS</span></li>
+                    <li><span>JavaScript</span></li>
+                    <li><span>React</span></li>
+                    <li><span>Node.js</span></li>
+                    <li><span>Python</span></li>
+                </ul>
+            </div>
+        </section>
+        <section id="projects">
             <h2>Projects</h2>
             <h4 class="projects-subtitle">Here are some of my recent works</h4>
             <div class="project-list">
                 <article class="project-item">
-                    <img src="images/project1.jpg" alt="Screenshot of the e-commerce website project" class="project-image">
+                    <img src="https://images.unsplash.com/photo-1677693972403-db681288b5da?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Screenshot of the e-commerce website project" class="project-image">
                     <h3>Project 1</h3>
                     <p class="project-description">A responsive e-commerce website built with React and Node.js.</p>
                     <a href="#" class="project-link">View Project</a>
                 </article>
                 <article class="project-item">
-                    <img src="images/project2.jpg" alt="Screenshot of the personal blog platform project" class="project-image">
+                    <img src="https://images.unsplash.com/photo-1559854034-90b4d013a96b?q=80&w=773&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Screenshot of the personal blog platform project" class="project-image">
                     <h3>Project 2</h3>
                     <p class="project-description">A personal blog platform developed using Django and Bootstrap.</p>
                     <a href="#" class="project-link">View Project</a>
                 </article>
                 <article class="project-item">
-                    <img src="images/project3.jpg" alt="Screenshot of the portfolio website project" class="project-image">
+                    <img src="https://images.unsplash.com/photo-1605379399642-870262d3d051?q=80&w=1506&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Screenshot of the portfolio website project" class="project-image">
                     <h3>Project 3</h3>
-                    <p class="project-description">A portfolio website showcasing my web development skills and projects.</p>
+                    <p class="project-description">A portfolio website showcasing my web development skills and
+                        projects.</p>
                     <a href="#" class="project-link">View Project</a>
                 </article>
             </div>
         </section>
- 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <div class="contact-info">
-            <p>Email: <a href="mailto:maryannewanjeri4@gmail.com">maryannewanjeri4@gmail.com</a></p>
-            <p>Phone: <a href="tel:+254712345678">+254 791820482</a></p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/maryanne-wanjeri-123456789/" target="_blank">linkedin.com/in/maryanne-wanjeri</a></p>
-                <p>GitHub: <a href="https://github.com/maryannewanjeri4-beep" target="_blank">github.com/maryannewanjeri</a></p>
 
-        </div>
-        <h4 class="contact-subtitle">Feel free to reach out to me for any inquiries or collaborations</h4>
-        <form class="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:maryannewanjeri4@gmail.com">maryannewanjeri4@gmail.com</a></p>
+                <p>Phone: <a href="tel:+254712345678">+254 791820482</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/maryanne-wanjeri-123456789/"
+                        target="_blank">linkedin.com/in/maryanne-wanjeri</a></p>
+                <p>GitHub: <a href="https://github.com/maryannewanjeri4-beep"
+                        target="_blank">github.com/maryannewanjeri</a></p>
+
+            </div>
+            <h4 class="contact-subtitle">Feel free to reach out to me for any inquiries or collaborations</h4>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
     <footer>
         <p>&copy; 2026 Maryanne Wanjeri. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
